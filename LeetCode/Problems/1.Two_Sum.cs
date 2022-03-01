@@ -6,7 +6,7 @@ namespace LeetCode
     {
         public int[] Solve(int[] nums, int target)
         {
-            // 1. Sort the input array
+            // 1. Sort the input array and store the original indexes as well
             var input = nums.Select((x, i) => new { x, i }).OrderBy(y=>y.x).ToArray();
 
 
@@ -27,6 +27,8 @@ namespace LeetCode
                     end--;
                 }
             }
+
+            // 3. return original indices
             return new[] { input[start].i, input[end].i };
         }
     }
