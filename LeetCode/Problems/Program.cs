@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Problems;
+using System;
 
 namespace LeetCode
 {
@@ -6,8 +7,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var t = new TwoSum();
-            Console.WriteLine(t.Solve(new[] { 3, 2, 4 },6));
+            var t = new PalindromeNumber();
+            Console.WriteLine(t.IsPalindrome(12322));
         }
     }
 }
