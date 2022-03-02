@@ -1,5 +1,4 @@
-﻿using Problems;
-using System;
+﻿using System;
 
 namespace LeetCode
 {
@@ -7,8 +6,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var t = new PalindromeNumber();
-            Console.WriteLine(t.IsPalindrome(12322));
+            var t = new BinarySearchSolution();
+            Console.WriteLine(t.Search(new[] { -1, 0, 3, 5, 9, 12 },9));
+            Console.WriteLine(t.Search(new[] { -1, 0, 3, 5, 9, 12 },2));
         }
     }
 }
