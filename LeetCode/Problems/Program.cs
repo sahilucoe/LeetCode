@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Problems;
+using System;
 
 namespace LeetCode
 {
@@ -6,9 +7,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var t = new BinarySearchSolution();
-            Console.WriteLine(t.Search(new[] { -1, 0, 3, 5, 9, 12 },9));
-            Console.WriteLine(t.Search(new[] { -1, 0, 3, 5, 9, 12 },2));
+            var t = new SquaresOfSortedArray();
+            Console.WriteLine(t.SortedSquares(new[] {-4, -1, 0, 3, 10}));
         }
     }
 }
