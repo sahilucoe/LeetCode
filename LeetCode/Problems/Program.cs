@@ -7,8 +7,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var t = new SquaresOfSortedArray();
-            Console.WriteLine(t.SortedSquares(new[] {-4, -1, 0, 3, 10}));
+            var t = new TwoSum_SortedArray();
+            t.TwoSum(new[] { 2, 3, 4 },6);
+            t.TwoSum(new[] { -1, 0 },-1);
         }
     }
 }
