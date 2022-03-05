@@ -7,6 +7,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            var t = new ReverseWordsInAString();
+            Console.WriteLine(t.ReverseWords("Let's take LeetCode contest"));
         }
     }
 }
