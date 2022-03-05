@@ -7,8 +7,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var t = new ReverseWordsInAString();
-            Console.WriteLine(t.ReverseWords("Let's take LeetCode contest"));
+            var t = new LongestPalindromincSubstring();
+            Console.WriteLine(t.LongestPalindrome("babad"));
+            Console.WriteLine(t.LongestPalindrome("cbbd"));
         }
     }
 }
