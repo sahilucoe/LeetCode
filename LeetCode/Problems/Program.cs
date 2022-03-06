@@ -7,9 +7,10 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var t = new LongestPalindromincSubstring();
-            Console.WriteLine(t.LongestPalindrome("babad"));
-            Console.WriteLine(t.LongestPalindrome("cbbd"));
+            var t = new PascalTriangleII();
+            Console.WriteLine(t.GetRow(3 ));
+            Console.WriteLine(t.GetRow(0 ));
+            Console.WriteLine(t.GetRow(1 ));
         }
     }
 }
